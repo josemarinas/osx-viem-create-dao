@@ -1,0 +1,19 @@
+{
+  "name": "create-dao-script",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "create-dao": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@aragon/osx-commons-configs": "^0.4.0",
+    "axios": "^1.6.8",
+    "viem": "^2.9.31"
+  }
+}
